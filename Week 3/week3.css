@@ -1,0 +1,35 @@
+/* This style is for the inline elements, i.e
+the elements below the two */
+.first {
+  color: red;
+  display: inline-block;
+  border: 1px solid red;
+}
+
+.second {
+  color: darkblue;
+  /* display: ; */
+}
+
+li {
+  display: inline-block;
+  width: 100px;
+  /* display: inline; */
+  border: 1px solid #aaa;
+  padding: 4px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+nav {
+  /* fixed */
+  position: fixed;
+  /* right: 100px; */
+  /* absolute */
+  /* sticky */
+  /* position: fixed; */
+  background-color: teal;
+  color: white;
+
+  /* static */
+}
