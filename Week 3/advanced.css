@@ -1,0 +1,88 @@
+/* normal styles */
+h2 {
+  color: green;
+  border: 1px solid green;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* pseudo class */
+h2:hover {
+  cursor: pointer;
+  color: red;
+}
+
+input:focus {
+  outline: 1px solid red;
+}
+
+li:nth-child(2),
+li:nth-child(4),
+li:nth-child(6) {
+  color: blue;
+}
+
+/* pseudo elements */
+h3::after {
+  content: " hello";
+}
+
+h3::first-line {
+  color: yellowgreen;
+}
+
+.pseudo {
+  color: red;
+}
+
+.pseudo::first-line {
+  color: black;
+}
+
+.pseudo::first-letter {
+  color: green;
+  font-size: 40px;
+}
+
+/* Background styles (with background image) */
+.bg-styles {
+  border: 1px solid red;
+  height: 300px;
+  width: 300px;
+
+  /* background */
+  background-color: gray;
+  background-image: url("./DevCamp2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+/* background gradient */
+.gradient {
+  border: 1px solid red;
+  height: 300px;
+  width: 300px;
+
+  background: linear-gradient(to right, red, blue, gray);
+  /* background: radial-gradient(red, blue, gray); */
+}
+
+/* Transition */
+.gradient {
+  transition: color 0.5s ease-in-out;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #4682b4;
+  transition: background-color 1s ease;
+  margin: 50px;
+}
+
+/* When hovered, the color transitions smoothly */
+.box:hover {
+  background-color: coral;
+}
