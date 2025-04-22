@@ -1,0 +1,75 @@
+/* class */
+/* predefined styles */
+:root {
+  --main-color: #0e5d92;
+  --spacing: 1rem;
+  --text-color: white;
+}
+
+/* using the styles */
+.button {
+  background-color: var(--main-color);
+  padding: var(--spacing);
+  box-sizing: border-box;
+}
+
+/* using the styles */
+p {
+  /* background-color: var(--main-color); */
+  /* color: var(--text-color); */
+  padding: var(--spacing);
+}
+
+/* wild cat: selects everything inside of our html */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.chat-box {
+  border: 1px solid teal;
+  width: 300px;
+  max-height: 300px;
+  overflow: auto;
+}
+
+/* responsive typography */
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 2rem;
+}
+
+/* MEDIA QUERIES */
+/* all devices including mobile and tablet */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+}
+
+/* media queries style for large screen/device */
+@media (min-width: 769px) {
+  html {
+    font-size: 32px;
+  }
+}
