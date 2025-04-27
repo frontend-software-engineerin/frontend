@@ -1,0 +1,8 @@
+1. Go through what have been done.
+2. Add the navigation for mobile view (hint: instead of display: inline; you should have display: block;)
+3. Let the navigation take turns to display according to the screen size (hint: use @media for your styling.)
+
+
+TODO
+1. Go through the curriculum and point out the areas to we are to touch again by next week
+2. Work on the time flexibility by notifying me 4 hrs before your agreed time.
