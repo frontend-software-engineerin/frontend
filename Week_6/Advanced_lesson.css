@@ -1,0 +1,94 @@
+:root {
+  --main-color: rgb(6, 44, 44);
+  --secondary-color: #aaa;
+  --dark-mode-background: black;
+  --dark-mode-text: white;
+  --padding: 16px;
+}
+
+div {
+  background-color: var(--main-color);
+  padding: var(--padding);
+}
+p {
+  color: var(--secondary-color);
+}
+
+div:hover {
+  background-color: var(--dark-mode-background);
+  color: var(--dark-mode-text);
+}
+
+/* basic button */
+button {
+  background-color: navy;
+  color: white;
+}
+
+/* button with a class */
+.but-class {
+  background-color: orchid;
+}
+
+/* button with an id */
+
+#but-id {
+  background-color: black;
+}
+
+/* pseudo class - hover */
+#but-id:hover {
+  background-color: blue;
+}
+
+.fullname-input:focus {
+  outline: 2px solid blue;
+  border: 2px solid blue;
+}
+
+li:nth-child(2),
+li:nth-child(4),
+li:nth-child(6),
+li:nth-child(8),
+li:nth-child(10),
+li:nth-child(12) {
+  background-color: gray;
+  color: white;
+}
+
+/* first child pseudo element */
+li:first-child {
+  background-color: teal;
+  color: white;
+}
+
+/* last child pseudo element */
+li:last-child {
+  color: white;
+  background-color: rgb(61, 4, 4) !important;
+}
+
+li:last-child {
+  color: white;
+  /* background-color: green; */
+}
+
+/* Pseudo Element */
+/* h1::before {
+  content: "🔥 ";
+} */
+
+/*  continuation of pseudo element */
+h1::first-letter {
+  color: gold;
+  font-size: 4rem;
+}
+
+/* Pseudo class */
+/* h1:hover{
+
+}  */
+
+/* Pseudo element */
+
+/* DRY */
