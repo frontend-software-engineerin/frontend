@@ -34,6 +34,7 @@ button {
 
 #but-id {
   background-color: black;
+  transition: background-color 1s ease-out 2s;
 }
 
 /* pseudo class - hover */
@@ -92,3 +93,40 @@ h1::first-letter {
 /* Pseudo element */
 
 /* DRY */
+
+/* Transition */
+img {
+  height: 100px;
+
+  /* add transition to the image */
+  transition: transform 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+/* ANimation */
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation */
+h1 {
+  animation: fadein 4s ease-in forwards;
+}
