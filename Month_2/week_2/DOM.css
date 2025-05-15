@@ -1,0 +1,11 @@
+h1 {
+  color: red;
+}
+
+#main-heading {
+  font-size: 30px;
+}
+
+.description {
+  font-family: "Courier New", Courier, monospace;
+}
