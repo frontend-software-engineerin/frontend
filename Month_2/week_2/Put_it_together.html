@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link to my css -->
+    <link rel="stylesheet" href="Put_it_together.css" />
+    <!-- link to my javascript -->
+    <!-- <script src="./Put_it_together.js"></script> -->
+    <title>DOM Class</title>
+  </head>
+  <body>
+    <!-- <h1>Put it together lesson</h1> -->
+
+    <h1 id="main-heading">Original Heading</h1>
+    <p class="description">This is a paragraph.</p>
+    <button id="change-btn">Click to Change</button>
+
+    <h3 id="heading-three">Four number</h3>
+
+    <!-- internal script -->
+    <script>
+      const headingThree = document.getElementById("heading-three");
+
+      headingThree.style.color = "Green";
+      const heading = document.getElementById("main-heading");
+      const para = document.querySelector(".description");
+      const button = document.getElementById("change-btn");
+
+      button.addEventListener(
+        "click",
+        changeElementColor
+
+        //   arrow function
+        // () => {
+        //   heading.textContent = "DOM Updated!";
+        //   para.innerHTML = "<em>Now this is italic</em>";
+
+        //   //  change the color
+        //   heading.style.color = "red";
+        //   para.classList.add("highlight");
+        // }
+      );
+
+      function changeElementColor() {
+        // what happens when the function called
+        heading.textContent = "DOM Updated!";
+        para.innerHTML = "<em>Now this is italic</em>";
+
+        //  change the color
+        heading.style.color = "red";
+        para.classList.add("highlight");
+      }
+    </script>
+  </body>
+</html>

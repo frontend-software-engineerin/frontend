@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link my javascript file -->
+    <script src="./Style_elements.js"></script>
+
+    <!-- link my css file -->
+    <link rel="stylesheet" href="/Style_elements.css" />
+    <title>Styling Elements Dynamically</title>
+  </head>
+  <body>
+    <h1 id="heading-content">
+      This is the lesson on styling elements dynamically using javascript
+    </h1>
+
+    <!-- This is the paragraph i want to change -->
+
+    <p id="para" class="mon ">Highlight paragraph</p>
+    <!-- internal javascript file -->
+    <script>
+      const h1 = document.getElementById("heading-content");
+      // h1.style.color = "red";
+      h1.style.backgroundColor = "blue";
+      h1.style.color = "white";
+      h1.style.padding = "10px";
+
+      // Add style to paragraph"
+      document.getElementById("para");
+      // para.classList.add("highlight");
+    </script>
+  </body>
+</html>

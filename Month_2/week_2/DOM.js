@@ -1,5 +1,5 @@
 // Selecting by ID
-const heading = document.getElementById("main-heading");
+
 console.log(heading); // <h1 id="main-heading">Welcome</h1>
 // alert(heading);
 // Selecting with querySelector
@@ -11,10 +11,13 @@ const button = document.querySelector("#click-me");
 console.log(button.textContent); // Click Me
 
 // Getting elements from our HTML
-// document.getElementById()
-// document.querySelector
+document.getElementById("main-heading");
+
+
+document.querySelector("#main-heading");
+document.querySelector(".description");
 // document.querySelectorAll
 
-heading.textContent = "Hello, Developer";
+// heading.textContent = "Hello, Developer";
 
-para.innerHTML = "<strong>This is bold text!</strong>";
+// para.innerHTML = "<strong>This is bold text!</strong>";
