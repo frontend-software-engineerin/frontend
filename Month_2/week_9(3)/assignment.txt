@@ -1,0 +1,7 @@
+
+Assignment:
+
+write an array and then work on the array using 
+1. map() method
+2. reduce() method
+3. forEach() method
