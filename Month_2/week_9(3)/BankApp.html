@@ -3,19 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="./BankApp.js"></script> -->
     <title>Document</title>
   </head>
   <body>
     <h1>Welcome to International Bank of America</h1>
-    <form action="">
-      <p>Usename</p>
-      <input id="user" type="text" />
-      <button type="submit" id="create-acc-btn">Create Account</button>
-    </form>
+    <!-- <form> -->
+    <hr />
+    <hr />
+    <p>Usename</p>
+    <input id="user" name="" type="text" />
+    <button id="acc-btn">Create Account</button>
 
+    <hr />
+    <p>Balance: $ <span id="balance">0.00</span></p>
+
+    <p>Deposit Funds</p>
+    <input type="number" id="deposit-amount" placeholder="enter amount to deposit" />
+    <button id="deposit-btn">Deposit</button>
+
+    <hr />
+    <p>Withdraw Funds</p>
+    <input
+      type="number"
+      placeholder="Enter amount to Withdraw"
+      id="Withdraw-amount"
+    />
+    <button id="Withdraw-btn">Withdraw</button>
+
+    <hr />
+    <!-- <p>Transfer funds</p>  -->
+    <!-- </form> -->
+    <!-- 
     <script>
-      const username = document.getElementById("user").value;
-      const createAccBtn = document.getElementById("create-acc-btn");
-    </script>
+      const createAccBtn = document.getElementById("acc-btn");
+      createAccBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        alert("hello Clicked the button");
+      });
+      // createAccBtn.onclick(console.log("AccBtn clicked"));
+    </script> -->
+
+    <script src="./BankApp.js"></script>
   </body>
 </html>
