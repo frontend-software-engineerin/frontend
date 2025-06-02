@@ -1,0 +1,20 @@
+#cityName {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#temperature {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#weather {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
