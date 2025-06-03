@@ -1,0 +1,33 @@
+/* h1 {
+  color: teal;
+} */
+
+/* class name */
+.para {
+  color: green;
+}
+
+/* id name */
+#para-id {
+  border: 1px solid red;
+}
+
+/* element name */
+p {
+  padding: 10px;
+  border: 1px solid red;
+  margin: 40px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+input[type="text"] {
+  border: 1px solid red;
+}
+
+/*  */
+h1 {
+  /* position the content or text at a location */
+  text-align: center;
+  text-transform: capitalize;
+}
