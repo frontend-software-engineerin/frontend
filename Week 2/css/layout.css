@@ -1,0 +1,88 @@
+/* change block elements to inline elements */
+
+.first {
+  display: inline;
+}
+
+.second {
+  display: inline;
+  color: teal;
+  background-color: #aaa;
+}
+
+/* change inline elements to block elements  */
+
+span {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* toggle btw inline and block elements */
+
+.laptop {
+  display: inline-block;
+  border: 1px solid teal;
+  padding: 5px;
+  /* margin: 4p; */
+}
+
+/* hide the element */
+.h-3 {
+  display: none;
+}
+
+/* navigation bar */
+nav ul li {
+  display: inline;
+  border: 1px solid #aaa;
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 5px;
+  color: white;
+}
+
+nav {
+  padding: 10px;
+  background-color: teal;
+
+  /* keep this fixed */
+  position: fixed;
+  width: 100%;
+  top: 10;
+}
+
+.box {
+  position: absolute;
+  top: 30px;
+  right: 130px;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+}
+
+/* Adding flex to elements parent */
+.container {
+  display: flex;
+}
+
+/* use of grid */
+/* adding border to the list items inside the footer */
+footer li {
+  list-style-type: none;
+  border: 1px solid #aaa;
+  margin: 5px;
+  background-color: white;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+/* the grid display itself */
+footer {
+  display: grid;
+  background-color: teal;
+  grid-template-columns: repeat(4, 1fr);
+
+  /* further style */
+}
