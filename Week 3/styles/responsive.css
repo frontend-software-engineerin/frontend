@@ -1,0 +1,38 @@
+/* Basic Syntax */
+@media media-type and (condition) {
+  /* CSS rules here */
+}
+
+/* FOR MOBILE DEVICES */
+/* @media screen and (max-width: 768px) {
+  h1 {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid red;
+    padding: 3px;
+  }
+} */
+
+/* FOR DESKTOP DEVICES */
+@media screen and (min-width: 769px) {
+  h1 {
+    color: teal;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* .tablet-specific { display: block; } */
+  /* Tablet device */
+  h1 {
+    color: purple;
+  }
+}
+
+/* Image responsiveness */
+
+img {
+  /* height: 400px; */
+  width: 100%;
+  height: auto;
+}
