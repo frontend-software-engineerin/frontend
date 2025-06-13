@@ -1,0 +1,114 @@
+/* Hover effects */
+.button {
+  background: #3498db;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} /* Active state (when element is being activated) */
+.button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+} /* Focus for accessibility */
+
+input:focus {
+  outline: 2px solid #4caf50;
+  outline-offset: 2px;
+  border-color: #4caf50;
+} /* Focus-visible (only for keyboard navigation) */
+
+.button:focus-visible {
+  outline: 2px solid #ff6b6b;
+  outline-offset: 2px;
+}
+
+/* anchor tag */
+
+/* removes the underline from links */
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+a:active {
+  color: #e74c3c;
+} /* Complex hover effects */
+
+/* end of the anchor link styles */
+/* 
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card:hover .card-title {
+  color: #e74c3c;
+}
+.card:hover .card-image {
+  filter: brightness(1.1) saturate(1.2);
+} */
+
+/* STRUCTURAL PSUEDO CLASSES */
+li {
+  list-style-type: circle;
+}
+
+li:first-child {
+  color: teal;
+  border: 1px solid #aaa;
+  /* width: fit-content; */
+  padding: 3px;
+}
+
+li:last-child {
+  color: orange;
+  border: 1px solid #aaa;
+  /* width: fit-content; */
+  padding: 3px;
+}
+
+li:nth-child(4) {
+  text-decoration: underline;
+  color: rebeccapurple;
+}
+
+/* Even and odd rows (zebra striping) */
+li:nth-child(even) {
+  background-color: rgb(194, 191, 191);
+}
+li:nth-child(odd) {
+  background-color: lightblue;
+}
+
+/* pseudo elements */
+
+/* ::before and ::after */
+.quote::before {
+  content: "";
+  font-size: 2em;
+  color: #3498db;
+  vertical-align: top;
+  line-height: 0.1em;
+}
+
+.quote::after {
+    content: "
+  "";
+  font-size: 2em;
+  color: #3498db;
+  vertical-align: bottom;
+  line-height: 0.1em;
+} 
