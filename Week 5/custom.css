@@ -1,0 +1,38 @@
+/*  */
+
+:root {
+  /* light style */
+  --bg-color: #105787;
+  --align-text: center;
+  --text-color: white;
+  --spacing: 1rem;
+
+  /* dark mode style */
+}
+h1,
+h2 {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: var(--align-text);
+  padding: var(--spacing);
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+/* change the theme to dark mode here */
+/* body {
+  background-color: var(--bg-color-dark);
+} */
+
+p {
+  height: 300px;
+  width: 400px;
+  /* visible: scroll bar is visible,
+  hidden: hides the scroll bar,
+  auto: detects when to scroll and gives you the scroll bar.
+  scroll: gives you the scroll */
+  overflow: auto;
+  font-size: 20px;
+}
+
+/* 1rem = 16px */
