@@ -1,0 +1,42 @@
+.heading-container {
+  padding: 5px;
+  text-align: center;
+  background-color: #d6d5d5;
+}
+
+form div {
+  display: block;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form div label {
+  margin: 5px 0px;
+  text-align: center;
+  display: block;
+}
+
+form {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+}
+
+form div input {
+  height: 30px;
+  width: auto;
+}
+
+.submit-button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  outline: 1px solid white;
+  border: 1px solid teal;
+  margin: 10px;
+}

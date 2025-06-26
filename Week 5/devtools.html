@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="devtools.css" />
+    <title>Developer Tools</title>
+  </head>
+  <body>
+    <div>
+      <div class="heading-container">
+        <h1 class="heading">Create account with UBA</h1>
+      </div>
+
+      <!-- 
+      LABEL: This is the place to enter the text that the user would have to see 
+      visibly wnen filling the form.
+
+      INPUT ELEMENTS ATTRIBUTE:
+      TYPE: The type specifies that input element type,
+      that is being used or the type of data
+      that is required to be used at the momemnt.
+
+      NAME: must be the same with the space allocated for the data
+      coming from the frontend to the database.
+
+      REQUIRED: Ensures that users cannot submit the form except they
+      fill out (fill in) that partficular input element which has the required 
+      attribute
+
+      ID: Id is the peculiar identifier or name given to an input element which
+      also is used by the label.
+
+      PLACEHOLDER: is the hint or faded text inside an input element which is used
+      to further tell user of what to submit/provide.
+
+
+      <div>
+        <label for="confirm_password_input">Confirm Password</label>
+        <input
+          required
+          type="password"
+          name="confirm_password_input"
+          id="password_input"
+          placeholder="**********"
+        />
+      </div> -->
+
+      <div>
+        <form action="">
+          <!-- Get users Data
+             email
+             phone number
+             password
+            confirm password
+             username
+             age
+             address
+             BVN
+             -->
+          <div>
+            <label for="email_input">Enter Email</label>
+            <input
+              required
+              id="email_input"
+              name="email_input"
+              type="email"
+              placeholder="Enter email"
+            />
+          </div>
+
+          <div>
+            <label for="phone_input">Enter phone number</label>
+            <input
+              required
+              type="tel"
+              name="phone_input"
+              id="phone_input"
+              placeholder="+2348023...."
+            />
+          </div>
+          <div>
+            <label for="password_input">Enter Password</label>
+            <input
+              required
+              type="password"
+              name="password_input"
+              id="password_input"
+              placeholder="**********"
+            />
+          </div>
+          <div>
+            <label for="confirm_password_input">Confirm Password</label>
+            <!-- -->
+            <input
+              required
+              type="password"
+              name="confirm_password_input"
+              id="password_input"
+              placeholder="**********"
+            />
+          </div>
+
+          <button class="submit-button" type="submit">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
