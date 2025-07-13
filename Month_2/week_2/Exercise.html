@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="Exercise.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- form validation -->
+      <h1>Feedback Form</h1>
+
+      <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+
+        <div class="button-group">
+          <button type="submit" id="submitBtn">Submit</button>
+          <button type="button" id="resetBtn">Reset</button>
+        </div>
+      </form>
+
+      <div id="output" class="output"></div>
+    </div>
+
+    <script src="Exercise.js"></script>
+  </body>
+</html>
