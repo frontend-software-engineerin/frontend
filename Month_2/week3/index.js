@@ -120,3 +120,7 @@ const fruits = ["apple", "banana", "mango"];
 // to get the ages that is below 18
 
 let people = [12, 15, 13, 27, 19, 18, 30, 20];
+
+
+
+
