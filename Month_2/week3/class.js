@@ -73,16 +73,16 @@ const Moses = new BankAccount(20201136767, 100);
 function divide(a, b) {
   try {
     if (b === 0) {
-      throw new Error("Cannot divide by zero");
+      return "Cannot divide by zero";
     }
     return a / b;
   } catch (error) {
-    console.error("Error occurred:", error.message);
+    return `Error occurred:, ${error.message}`;
   } finally {
-    console.log("Execution complete.");
+    return "Execution complete.";
   }
 }
 
-alert(divide(10, 0));
+alert(divide(18, 9));
 
 // console.log("hello");
