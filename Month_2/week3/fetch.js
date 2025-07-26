@@ -81,7 +81,7 @@ async function fetchUser() {
 
 fetchUser();
 
-// Assignment:
+// Assignment_:
 
 // Write a synchronous program that will
 // 1.cook for 4 mins
