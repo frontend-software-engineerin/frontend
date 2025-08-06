@@ -1,0 +1,13 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0077cc;
+}
