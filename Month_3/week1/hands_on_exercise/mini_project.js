@@ -1,4 +1,4 @@
 // script.js
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Portfolio loaded successfully!");
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//   alert("Portfolio loaded successfully!");
+// });
