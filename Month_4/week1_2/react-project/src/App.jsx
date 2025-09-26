@@ -1,19 +1,25 @@
 import "./App.css";
+import Counter from "./context/Counter";
+import { MyProvider } from "./context/MyProvider";
+import Counter_Local from "./components/Counter_Local";
 
-// import the Hero function from the Hero.jsx file
-// inside of the component folder
-import Hero from "./components/Hero";
+// import Counter from "./components/Counter_Local";
+// import Timer from "./components/Timer";
+// import Avatar from "./components/Avatar";
+
+// import { MyProvider } from "./context/MyProvider";
+// import Event from "./components/Event";
 
 function App() {
-  const name = "Tony";
-
   // the function should return something
   return (
     <div>
-      <p>Hello World</p>
+      <MyProvider>
+        <Counter_Local />
+        <Counter />
 
-      <Hero />
-      {/* Conditional Statements go into the curly braces */}
+        <Counter />
+      </MyProvider>
     </div>
   );
 }
